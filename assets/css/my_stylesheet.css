@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #ecf0f1;
+	margin: 10px;
+	padding: 2px;
+}
+
+.display{
+	padding: 20px;
+}
+
+.display img{
+	height: calc(100vh - 92px);
+	/*border: 3px solid #999;*/
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.display .textual{
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0% 0%;
+	position: relative;
+	bottom: 100px;
+	color: white;
+	height: 100px;
+	overflow: auto;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+}
+
+.thumbnail-display{
+	height: calc(100vh - 40px;)
+	padding: 20px 10px 20px;
+	overflow-y: auto;
+}
+
+.thumbnail-display ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.thumbnail-display ul li{
+	/*padding: 5px;*/
+	margin-bottom: 5px;
+	opacity: 0.5;
+}
+
+.thumbnail-display ul li:hover{
+	cursor: pointer;
+}
+
+.thumbnail-display ul li.active{
+	background-color: #2ecc71;
+	opacity: 1;
+}
+
+.thumbnail-display ul li img{
+	top-margin: 10px;
+	height: 100px;
+	width: 100%;
+	padding: 5px;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.thumbnail-display ul li .image-text{
+	display: none;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+ul {
+	margin-top: 45px;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	text-align: center;
+	/*border-color: blue;*/
+	border-radius: 2px;
+	margin: 5px;
+}
+
+.demo {
+	margin-top: -140px;
+	position:absolute;
+	margin-left: 500px;
+
+	padding: 5px;
+}
+
+.thumbnail-display ul {
+	margin: auto;
+}
